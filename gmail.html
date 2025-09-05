@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h3><center>"WELCOME TO MY SUB WEBSITE, CLICK THE BUTTON TO COPY THE TEXT"</center></h3>
+
+<input type="text" value="vickyblr137@gmail.com" id="myInput">
+<button onclick="myFunction()">COPY GMAIL ID</button>
+
+<script>
+function myFunction() {
+  var copyText = document.getElementById("myInput");
+  copyText.select();
+  copyText.setSelectionRange(0, 99999);
+  navigator.clipboard.writeText(copyText.value);
+  alert("Copied the text: " + copyText.value);
+}
+</script>
+<a href="https://r.search.yahoo.com/_ylt=Awr1QZ7U07loCQIA51m7HAx.;_ylu=Y29sbwNzZzMEcG9zAzEEdnRpZAMEc2VjA3Ny/RV=2/RE=1758218452/RO=10/RU=https%3a%2f%2fmail.google.com%2fmail%2f/RK=2/RS=OfQ96U_.ruWQY2AmLuXXICZVlMM-">CLICK TO CONNECT GMAIL</a>
+
+</body>
+</html>
